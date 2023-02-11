@@ -37,6 +37,10 @@ body {
     border: none;
 }
 
+.secondary:hover {
+    background-color: lightblue;
+}
+
 .nav-img {
     height: 33%;
     width: 33%;
@@ -56,7 +60,7 @@ a {
 }
 
 
-.footer {
+footer {
     background-color: #1F2937;
     color: white;
     text-align: center;
@@ -107,13 +111,60 @@ a {
     text-align: center;
 }
 
-.playlist-info {
+.content-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+    font-family: "Raleway";
 }
 
-.pl-info {
+.info {
+    display: flex;
+    text-align: center;
+    gap: 200px;
+    margin-left: 50px;
+    margin-right: 25px;
     list-style-type: none;
+}
+
+.quote-text {
+    font-weight: light;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+#quote-paragraph {
+    margin-left: 1000px;
+    display: flex;
+    font-size: 25px;
+}
+
+.quote {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: "Raleway";
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1ED760;
+    border-style: solid;
+    padding: 50px 50px;
+    border-color: #1F2937;
+    gap: 50px;
+    font-family: "Raleway";
+}
+
+.join {
+    background-color: mediumseagreen;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
 }
